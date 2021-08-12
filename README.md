@@ -1,1 +1,1 @@
-# imer.githu.io
+# imer.github.io
