@@ -102,18 +102,18 @@ footer p {
         border-radius: 2%;
     }
     .imagen-carrusel {
-        height: 400px;
+        height: 100%;
         margin: auto;
     }
     .carousel-inner {
-        height: 400px !important;
+        height: 100% !important;
         border-radius: 2%;
         width: 98% !important;
         margin: auto;
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 576px) {
     .icono-wrap {
         flex-wrap: wrap;
         justify-content: center !important;
@@ -126,14 +126,13 @@ footer p {
         margin: auto;
     }
     .imagen-carrusel {
-        height: 10px;
+        height: 200px !important;
         margin: auto;
     }
     .carousel-inner {
-        height: 10px !important;
+        height: 100% !important;
         border-radius: 2%;
         width: 98% !important;
-        margin: auto;
     }
 }
 
