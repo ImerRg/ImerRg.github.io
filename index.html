@@ -8,65 +8,148 @@
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="css/miestilo.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
 </head>
 
 <body>
-    <header class="header">
-        <div class="container menu">
-            <div class="logo">
-                <img class="imagen1" src="img/perfil.jpg" alt="logo" />
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark p-3" id="menu">
+            <div class="container">
+                <img class="logo" src="img/perf.png" alt="perf" />
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-lg-auto ms-auto mb-2 mb-lg-0 navbar-right">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">INICIO</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">SOBRE MI</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">CONTACTO</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <a href="index.html" class="logo2"><b>IMERRG</b></a>
-            <nav class="navigation">
-                <ul>
-                    <li>
-                        <a href="index.html">INICIO</a>
-                    </li>
-                    <li>
-                        <a href="About.html">ACERCA DE MI</a>
-                    </li>
-                    <li>
-                        <a href="Contact.html">COTACTO</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+        </nav>
     </header>
 
-    <section class="contenido3">
-        <div>
-            <p class="presentacion">
-                Hola. Soy Imer, un estudiante de Cajamarca en la Universidad Nacional de Cajamarca. Estudio Ingenieria de Sistemas, voy en el noveno ciclo. Estoy aprendiendo a diseñar mi propia pagina Web donde van a conocer un poquinos mas de mi.
-            </p>
-            <br />
-            <h3>La vida hasta ahora ...</h3>
-            <div class="acercar">
-                <ul>
-                    <li>
-                        <p>Respirando desde 1992.</p>
-                    </li>
-                    <li>
-                        <p>Vivi gran parte de mi vida en la ciudad de Celendín</p>
-                    </li>
-                    <li>
-                        <p>Estudio en la UNIVERSIDAD NACIONAL DE CAJAMARCA</p>
-                    </li>
-                    <li>
-                        <p>Trabajo en una empresa constructora "Nueva Jerusalen".</p>
-                    </li>
-                    <li>
-                        <p>Respirando desde 1992.</p>
-                    </li>
-                </ul>
-            </div>
-        </div>
+    <section class="container-fluid bg-black d-flex justify-content-center">
+        <p class="text-light mb-0 p-2 fs-6 font-monospace text-decoration-none">
+            ¡BIENVENIDOS A MI PAGINA PERSONAL!
+        </p>
     </section>
 
-    <footer>
-        <section>
-            <h5>Todos los derechos reservados a imerrg - 2021</h5>
-        </section>
-    </footer>
-</body>
+    <div id="carouselExampleControls" class="carousel slide pt-3" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="img/c0.jpg" class="d-block w-100 imagen-carrusel" alt="c0" />
+            </div>
 
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="img/c1.jpg" class="d-block w-100 imagen-carrusel" alt="c1" />
+            </div>
+
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="img/c2.jpg" class="d-block w-100 imagen-carrusel" alt="c2" />
+            </div>
+
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="img/c3.jpg" class="d-block w-100 imagen-carrusel" alt="c3" />
+            </div>
+
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img src="img/c4.jpg" class="d-block w-100 imagen-carrusel" alt="c4" />
+            </div>
+
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="img/c5.jpg" class="d-block w-100 imagen-carrusel" alt="c5" />
+            </div>
+
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="img/c6.jpg" class="d-block w-100 imagen-carrusel" alt="c6" />
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <section class="w-50 mx-auto text-center pt-5" id="intro">
+        <h1 class="p-3 fs-2 border-top border-3">
+            Conociendo todo sobre<span class="text-primary">
+          Imer Rodriguez Guevara</span
+        >
+      </h1>
+      <p class="p-3 fs-4">
+        Hola. Soy Imer, un estudiante de la ciudad de Cajamarca en la
+        Universidad Nacional de Cajamarca. Estudio Ingenieria de Sistemas, voy
+        en el noveno ciclo. Estoy aprendiendo a diseñar mi propia pagina Web
+        donde van a conocer un poquito mas de mi.
+      </p>
+    </section>
+    <section class="w-75 mx-auto text-center pt-5" id="intro">
+      <h1 class="p-3 fs-2 border-top border-3" id="texto">
+        La vida hasta ahora ...!
+      </h1>
+      <ul class="ms-auto mb-2 mb-lg-0">
+        <li>
+          <p class="p-3 fs-5" id="texto">Respirando desde 1992.</p>
+        </li>
+        <li>
+          <p class="p-3 pt-0 fs-5" id="texto">
+            Vivi gran parte de mi vida en la ciudad de Celendín
+          </p>
+        </li>
+        <li>
+          <p class="p-3 pt-0 fs-5" id="texto">Vivo en la Ciudad de Cajamarca</p>
+        </li>
+        <li>
+          <p class="p-3 pt-0 fs-5" id="texto">
+            Me gusta salir a jugar al fútbol.
+          </p>
+        </li>
+        <li>
+          <p class="p-3 pt-0 fs-5" id="texto">
+            Mi sueño es viajar y conocer todo el Perú.
+          </p>
+        </li>
+      </ul>
+    </section>
+
+    <footer
+      class="w-100 d-flex align-items-center justify-content-center flex-wrap"
+    >
+      <p class="fs-5 px-3 pt-3">
+        Imerrg. &copy; Todos Los Derechos Reservados 2021
+      </p>
+      <div id="iconos">
+        <a href="https://web.facebook.com/ImerRg/" target="_blank"
+          ><i class="bi bi-facebook"></i
+        ></a>
+        <a href="https://www.instagram.com/imer.rg/?hl=es" target="_blank"
+          ><i class="bi bi-instagram"></i
+        ></a>
+        <a href="https://wa.link/7mte94" target="_blank"
+          ><i class="bi bi-whatsapp"></i
+        ></a>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+      integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>
