@@ -27,18 +27,6 @@ header {
     font-weight: bold;
 }
 
-.carousel-inner {
-    height: 40em !important;
-    border-radius: 2%;
-    width: 98% !important;
-    margin: auto;
-}
-
-.imagen-carrusel {
-    height: 650px;
-    margin: auto;
-}
-
 footer {
     background: #1b2a4e;
     min-height: 100px;
@@ -47,6 +35,18 @@ footer {
 footer p {
     color: #f3f3f3;
     text-align: center;
+}
+
+.carousel-inner {
+    height: 100% !important;
+    border-radius: 2%;
+    width: 99% !important;
+    margin: auto;
+}
+
+.imagen-carrusel {
+    height: 700px;
+    margin: auto;
 }
 
 #iconos i {
@@ -101,9 +101,19 @@ footer p {
         height: 160px;
         border-radius: 2%;
     }
+    .imagen-carrusel {
+        height: 400px;
+        margin: auto;
+    }
+    .carousel-inner {
+        height: 400px !important;
+        border-radius: 2%;
+        width: 98% !important;
+        margin: auto;
+    }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 500px) {
     .icono-wrap {
         flex-wrap: wrap;
         justify-content: center !important;
@@ -113,6 +123,16 @@ footer p {
         height: 160px;
         border-radius: 2%;
         display: block;
+        margin: auto;
+    }
+    .imagen-carrusel {
+        height: 10px;
+        margin: auto;
+    }
+    .carousel-inner {
+        height: 10px !important;
+        border-radius: 2%;
+        width: 98% !important;
         margin: auto;
     }
 }
@@ -125,6 +145,16 @@ footer p {
         height: 160px;
         border-radius: 2%;
     }
+    .imagen-carrusel {
+        height: 100%;
+        margin: auto;
+    }
+    .carousel-inner {
+        height: 100% !important;
+        border-radius: 2%;
+        width: 98% !important;
+        margin: auto;
+    }
 }
 
 @media (max-widt: 20000px) {
@@ -134,5 +164,15 @@ footer p {
         width: 355px;
         height: 160px;
         border-radius: 2%;
+    }
+    .imagen-carrusel {
+        height: 100%;
+        margin: auto;
+    }
+    .carousel-inner {
+        height: 100% !important;
+        border-radius: 2%;
+        width: 98% !important;
+        margin: auto;
     }
 }
