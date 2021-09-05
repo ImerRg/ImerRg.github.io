@@ -1,0 +1,116 @@
+body {
+    background: aquamarine;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table {
+    margin-top: 5px;
+    border-collapse: collapse;
+    padding-left: 50px;
+}
+
+th,
+td {
+    border: 2px solid black;
+}
+
+.div1 {
+    width: 50%;
+    float: left;
+}
+
+.div2 {
+    width: 50%;
+    float: left;
+}
+
+th {
+    width: 200px;
+    text-align: left;
+    background: dodgerblue;
+    color: white;
+}
+
+td {
+    width: 250px;
+}
+
+input {
+    border: none;
+    height: 25px;
+    width: 250px;
+}
+
+button {
+    float: left;
+    margin-left: 25px;
+}
+
+.boton1 {
+    background: rgb(221, 159, 45);
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    color: white;
+    border: 1px solid white;
+}
+
+.boton2 {
+    background: rgb(216, 99, 32);
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    color: white;
+    border: 1px solid black;
+    margin-left: 10px;
+}
+
+.boton1:hover {
+    cursor: pointer;
+}
+
+.boton2:hover {
+    cursor: pointer;
+}
+
+.seccion1 {
+    margin-left: 80px;
+}
+
+.seccion2 {
+    width: 100%;
+    margin-top: 150px;
+    margin-left: 150px;
+}
+
+.div4 {
+    float: left;
+}
+
+.div5 {
+    float: left;
+    margin-left: 20px;
+}
+
+.div5 th {
+    background: rgb(163, 24, 24);
+}
+
+.div-seccion-2 th {
+    width: 170px;
+    height: 25px;
+}
+
+.div-seccion-2 input {
+    width: 150px;
+}
+
+.div-seccion-2 td {
+    width: 150px;
+    height: 25px;
+}
