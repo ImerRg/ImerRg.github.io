@@ -36,6 +36,11 @@ th {
     color: white;
 }
 
+th.rojo {
+    border: solid rgb(163, 24, 24);
+    background-color: rgb(163, 24, 24);
+}
+
 td {
     width: 250px;
 }
@@ -99,6 +104,11 @@ button {
 
 .div5 th {
     background: rgb(163, 24, 24);
+}
+
+.div5 th.azul {
+    border: solid dodgerblue;
+    background-color: dodgerblue;
 }
 
 .div-seccion-2 th {

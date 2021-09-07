@@ -5,7 +5,7 @@
         let Apellpaterno = document.getElementById("apellpat");
         let Apellmaterno = document.getElementById("apellmat");
         let nombre = document.getElementById("nomb");
-        let longitud = document.getElementById("longapell");
+        let longApellido = document.getElementById("longapell");
         let edad = document.getElementById("edad");
         let mes = document.getElementById("mesletras");
         let extraer = document.getElementById("extraer");
@@ -91,8 +91,41 @@
             }
         }
         extraer.addEventListener("click", extraerDatos, true);
-        let label1 = document.getElementById("textoapellpaterno");
+
+        let cuadro1 = document.getElementById("fila1");
+        let cuadro2 = document.getElementById("fila2");
+        let cuadro3 = document.getElementById("fila3");
+        let cuadro4 = document.getElementById("fila4");
+        let cuadro5 = document.getElementById("fila5");
+        let cuadro6 = document.getElementById("fila6");
+        let cuadro7 = document.getElementById("fila7");
+        let cuadro8 = document.getElementById("fila8");
 
         let contador = 0;
+
+        function cambiarColor() {
+            if (contador == 0) {
+                cuadro1.classList.add("rojo");
+                cuadro2.classList.add("rojo");
+                cuadro3.classList.add("rojo");
+                cuadro4.classList.add("rojo");
+                cuadro5.classList.add("rojo");
+                cuadro6.classList.add("azul");
+                cuadro7.classList.add("azul");
+                cuadro8.classList.add("azul");
+                contador = 1;
+            } else {
+                cuadro1.classList.remove("rojo");
+                cuadro2.classList.remove("rojo");
+                cuadro3.classList.remove("rojo");
+                cuadro4.classList.remove("rojo");
+                cuadro5.classList.remove("rojo");
+                cuadro6.classList.remove("azul");
+                cuadro7.classList.remove("azul");
+                cuadro8.classList.remove("azul");
+                contador = 0;
+            }
+        }
+        colorear.addEventListener("click", cambiarColor, true);
     };
 })();
